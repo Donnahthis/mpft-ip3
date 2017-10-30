@@ -30,11 +30,19 @@
     text-align: justify;
   }
 
-  .test-box {
+  .test-box1 {
     border-left:  22px solid white;
     border-right: 22px solid white;
     border-top:  12px solid white;
     border-bottom: 12px solid white;
-    background-color: pink;
-    float: center;
+    background-color: mediumSeaGreen;
+    float: left;
+  }
+  .test-box2 {
+    border-left:  25px solid white;
+    border-right: 22px solid white;
+    border-top:  25px solid white;
+    border-bottom: 22px solid white;
+    background-color: tomato;
+    float: right;
   }
