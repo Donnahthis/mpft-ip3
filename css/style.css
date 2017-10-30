@@ -30,9 +30,9 @@
     text-align: justify;
   }
 
-  /*.test-box1 {
-    border-left:  22px solid white;
-    border-right: 22px solid white;
+  .test-box1 {
+    border-left:  44px solid white;
+    border-right: 44px solid white;
     border-top:  12px solid white;
     border-bottom: 12px solid white;
     background-color: mediumSeaGreen;
