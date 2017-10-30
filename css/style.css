@@ -1,3 +1,40 @@
 #result {
     display: none;
   }
+
+  body{
+
+    background-attachment: fixed;
+  }
+
+  h1 {
+    color: purple;
+  }
+
+  h2 {
+    font-style: italic;
+    color: blue;
+  }
+
+  p {
+    color: darken;
+  }
+
+  h3 {
+    color:black
+  }
+
+  body {
+    background-color: green;
+    font-family: sans-serif;
+    text-align: justify;
+  }
+
+  .test-box {
+    border-left:  22px solid white;
+    border-right: 22px solid white;
+    border-top:  12px solid white;
+    border-bottom: 12px solid white;
+    background-color: pink;
+    float: center;
+  }

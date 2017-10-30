@@ -1,6 +1,6 @@
-# My-portfolio
+# pingpong Game
 
-#### Self introduction. 19TH/September/2017
+#### Number games. 24TH/September/2017
 
 #### By **Donnah Adhiambo**
 
