@@ -18,10 +18,17 @@
 
   p {
     color: darken;
+    font-style: italic;
   }
 
   h3 {
     color:black
+  }
+
+  h5 {
+    font-style: italic;
+    color: magenta;
+    align-items: center;
   }
 
   body {
@@ -45,4 +52,4 @@
     border-bottom: 22px solid white;
     background-color: tomato;
     float: right;
-  }*/
+  }
