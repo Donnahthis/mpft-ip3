@@ -1,5 +1,3 @@
-
-
 var person = function(userNumber) {
   var numberArray = [];
   if (userNumber < 0) { //negative numbers
@@ -21,7 +19,7 @@ var person = function(userNumber) {
       }
       numberArray.forEach(function(number) {
         if (number % 15 === 0) {
-          numberArray[number-1] = 'person';
+          numberArray[number-1] = 'pingpong';
         } else if (number % 3 === 0) {
           numberArray[number-1] = 'ping';
         } else if (number % 5 === 0) {
@@ -33,8 +31,14 @@ var person = function(userNumber) {
 }
 
 var displayResultList = function(outputArray) {
-    $('ul#result').empty();
-    on() {
+    $('ul#btn').empty();
+  outputArray.forEach(function(item) {
+    $('ul#btn').append('<li>' + item + '</li>');
+  });
+  return;
+}
+
+$(document).ready(function() {
   $('form#person').submit(function(event) {
     var userNumber = $('input#userNumber').val();
 
