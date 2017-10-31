@@ -39,17 +39,24 @@
 
   .test-box1 {
     border-left:  44px solid white;
-    border-right: 44px solid white;
-    border-top:  12px solid white;
-    border-bottom: 12px solid white;
-    background-color: mediumSeaGreen;
-    float: left;
-  }
-  .test-box2 {
-    border-left:  25px solid white;
-    border-right: 22px solid white;
-    border-top:  25px solid white;
-    border-bottom: 22px solid white;
-    background-color: tomato;
+    border-right: 24px solid white;
+    border-top:  44px solid white;
+    border-bottom: 24px solid white;
+    background-color: skyBlue;
     float: right;
   }
+  .test-box2 {
+    border-left:  54px solid grey;
+    border-right: 40px solid grey;
+    border-top:  54px solid grey;
+    border-bottom: 40px solid grey;
+    background-color: tomato;
+    float: justify;
+  }
+
+    li {
+      font-style: italic;
+      font-size: 35px;
+      color: blue;
+      align-items: justify;
+    }
