@@ -33,7 +33,7 @@
     color: magenta;
     align-items: center;
   }
-  
+
   .btn {
       border: none;
       color: white;
@@ -79,3 +79,8 @@
       /*background-color: skyBlue;*/
       float: right;
     }
+
+    /*.container {
+       display: inline;
+       cursor: pointer;
+   }*/
