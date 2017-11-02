@@ -15,7 +15,7 @@
 
   h2 {
     font-style: italic;
-    color: blue;
+    color: darken;
   }
 
   p {
@@ -43,7 +43,7 @@
   }
 
   body {
-    background-color: green;
+
     font-family: sans-serif;
     text-align: justify;
   }
@@ -61,7 +61,6 @@
     border-right: 40px solid grey;
     border-top:  54px solid grey;
     border-bottom: 40px solid grey;
-    background-color: tomato;
     float: justify;
   }
 
